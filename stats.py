@@ -12,7 +12,7 @@ from wordcloud import WordCloud
 import datetime
 
 st.set_page_config(layout="wide")
-st.title("🇷🇺 Анализ чата Telegram группы с дополнительными функциями")
+st.title("Анализ Telegram группы с дополнительными функциями")
 
 # Загружаем JSON файл result.json из папки со скриптом
 json_path = os.path.join(os.path.dirname(__file__), "result.json")
